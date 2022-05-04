@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "user": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "businessDetail": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "bankDetail": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "yarn": {
+    "dataSource": "mongodb",
+    "public": true
+  }
+}

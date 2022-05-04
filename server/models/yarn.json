@@ -1,0 +1,72 @@
+{
+  "name": "yarn",
+  "plural": "yarns",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "intention": {
+      "type": "string",
+      "required": true
+    },
+    "count": {
+      "type": "string",
+      "required": true
+    },
+    "yarnType": {
+      "type": "string",
+      "required": true
+    },
+    "purpose": {
+      "type": "string",
+      "required": true
+    },
+    "qualityDetail": {
+      "type": "string",
+      "required": true
+    },
+    "colour": {
+      "type": "string",
+      "required": true
+    },
+    "quantity": {
+      "type": "number",
+      "required": true
+    },
+    "deliveryArea": {
+      "type": "string",
+      "required": true
+    },
+    "deliveryPeriod": {
+      "type": "string",
+      "required": true
+    },
+    "paymentTerms": {
+      "type": "string",
+      "required": true
+    },
+    "closesWithin": {
+      "type": "string",
+      "required": true
+    },
+    "sendTo": {
+      "type": "string",
+      "required": true
+    },
+    "additionalComment": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "user": {
+      "type": "belongsTo",
+      "model": "user",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

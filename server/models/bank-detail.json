@@ -1,0 +1,51 @@
+{
+  "name": "bankDetail",
+  "plural": "bankDetails",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "mixins": {
+    "Stamp": {}
+  },
+  "properties": {
+    "accountName": {
+      "type": "string"
+    },
+    "accountNumber": {
+      "type": "number"
+    },
+    "iFSCCode": {
+      "type": "string"
+    },
+    "bankName": {
+      "type": "string"
+    },
+    "bankBranch": {
+      "type": "string"
+    },
+    "bankState": {
+      "type": "string"
+    },
+    "bankCity": {
+      "type": "string"
+    },
+    "addressProofUrl": {
+      "type": "string"
+    },
+    "cancelledChequeUrl": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "user": {
+      "type": "hasOne",
+      "model": "user",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,58 @@
+{
+  "name": "businessDetail",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "mixins": {
+    "Stamp": {}
+  },
+  "properties": {
+    "companyName": {
+      "type": "string",
+      "required": true
+    },
+    "accountType": {
+      "type": "string",
+      "required": true
+    },
+    "categories": {
+      "type": [
+        "string"
+      ],
+      "required": true
+    },
+    "address": {
+      "type": "string"
+    },
+    "completeAddress": {
+      "type": "string"
+    },
+    "gstNo": {
+      "type": "string"
+    },
+    "tanNo": {
+      "type": "string"
+    },
+    "gstDocumentUrl": {
+      "type": "string"
+    },
+    "panNo": {
+      "type": "string"
+    },
+    "panCardUrl": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "user": {
+      "type": "hasOne",
+      "model": "user",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
