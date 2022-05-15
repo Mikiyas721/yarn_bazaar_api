@@ -19,7 +19,9 @@
     "loopback-component-explorer": "^6.2.0",
     "loopback-connector-mongodb": "^4.2.0",
     "serve-favicon": "^2.0.1",
-    "strong-error-handler": "^4.0.0"
+    "strong-error-handler": "^4.0.0",
+    "tdl": "^7.0.0",
+    "tdl-tdlib-addon": "^1.0.1"
   },
   "devDependencies": {
     "eslint": "^3.17.1",

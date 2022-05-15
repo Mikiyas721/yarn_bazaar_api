@@ -6,6 +6,9 @@
   "options": {
     "validateUpsert": true
   },
+  "mixins": {
+    "Stamp": {}
+  },
   "properties": {
     "intention": {
       "type": "string",
@@ -24,8 +27,7 @@
       "required": true
     },
     "qualityDetail": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "colour": {
       "type": "string",

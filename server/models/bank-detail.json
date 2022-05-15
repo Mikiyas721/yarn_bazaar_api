@@ -14,7 +14,7 @@
       "type": "string"
     },
     "accountNumber": {
-      "type": "number"
+      "type": "string"
     },
     "iFSCCode": {
       "type": "string"
@@ -39,13 +39,7 @@
     }
   },
   "validations": [],
-  "relations": {
-    "user": {
-      "type": "hasOne",
-      "model": "user",
-      "foreignKey": ""
-    }
-  },
+  "relations": {},
   "acls": [],
   "methods": {}
 }

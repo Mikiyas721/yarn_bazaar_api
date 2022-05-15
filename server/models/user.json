@@ -43,14 +43,19 @@
   },
   "validations": [],
   "relations": {
-    "bankDetails": {
+    "bankDetail": {
       "type": "hasOne",
       "model": "bankDetail",
       "foreignKey": ""
     },
-    "businessDetails": {
+    "businessDetail": {
       "type": "hasOne",
       "model": "businessDetail",
+      "foreignKey": ""
+    },
+    "yarns": {
+      "type": "hasMany",
+      "model": "yarn",
       "foreignKey": ""
     }
   },
