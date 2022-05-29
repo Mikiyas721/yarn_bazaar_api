@@ -171,8 +171,8 @@ module.exports = function(User) {
           companyName: businessDetail.companyName,
           accountType: businessDetail.accountType,
           categories: businessDetail.categories,
-          businessDetailsId: businessDetail.id,
-          bankDetailsId: bankDetail.id,
+          businessDetailId: businessDetail.id,
+          bankDetailId: bankDetail.id,
         };
       } else {
         throw Error('Phone number has to be unique');

@@ -9,5 +9,13 @@
     "user": "",
     "useNewUrlParser": true,
     "connector": "mongodb"
+  },
+  "files": {
+    "host": "localhost",
+    "port": 27017,
+    "database": "yarn_bazaar",
+    "name": "files",
+    "provider": "files",
+    "connector": "loopback-component-storage-mongo"
   }
 }

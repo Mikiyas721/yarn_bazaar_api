@@ -28,5 +28,13 @@
   "yarn": {
     "dataSource": "mongodb",
     "public": true
+  },
+  "suggestion": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "container": {
+    "dataSource": "files",
+    "public": true
   }
 }

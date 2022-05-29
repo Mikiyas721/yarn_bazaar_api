@@ -50,7 +50,7 @@
       "required": true
     },
     "closesWithin": {
-      "type": "string",
+      "type": "number",
       "required": true
     },
     "sendTo": {
